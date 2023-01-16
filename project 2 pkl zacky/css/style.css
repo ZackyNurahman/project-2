@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden ;   
+    font-family: 'Poppins', sans-serif;
+}
+
+.brand{
+    color: white;
+}
+
+.nav{
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    justify-content: space-between;
+    position: fixed;
+  }
+  
+  ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      overflow: hidden;
+    }
+  
+    li {
+      float: right;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      list-style: none;
+    }
+    
+    a {
+      text-decoration: none ;
+    }
+  
+    li a:hover{
+        background-color: grey;
+    }
+
+    .hero{
+        margin-top: 200px;
+        margin-left: 20px;
+        color: black;
+    }
+
+    .page1 img{
+        position: absolute;
+        z-index: -10;
+        top: 0;
+        width: 100vw;
+    }
+
+    .button-join {
+        margin-top: 3rem;
+      }
+    
+      .button-join a {
+        background: #fc5185;
+        border-radius: 20px;
+        padding: 15px 20px 15px 20px;
+        color: #ffffff;
+        cursor: pointer;
+        font-weight: bold;
+      }
+    
+      .button-join a:hover{
+        background: #3f72af;
+        text-decoration: none;
+      }
+       
+      .container{
+        margin:10% auto;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .page1 {
+        height: 100vh;
+      }
+
+      .section{
+        margin-top: 150px;
+        margin-left: 150px;
+      }
+
+      .section > h2{
+        border-bottom: 5px solid black;
+        padding-bottom: 20px;
+        width: fit-content;
+      }
+
+      .card{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: auto;
+        padding-top: 150px;
+        height: 100vh;
+      }
+
+      .card1, .card2, .card3, .card4{
+        width: 20%;
+        height: 272px;
+        border-radius: 20px;
+        background-color: #333333;
+        box-shadow: 0 0 10px #333333;
+        padding: 20px;
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        transition: 0.6s;
+      }
+
+      .card1{
+        background-image: url(https://img.freepik.com/free-photo/delicious-sweet-cake-with-strawberries-baiser-plate_181624-29179.jpg?w=1060&t=st=1673323923~exp=1673324523~hmac=606b1edeacbc75af292f46fbf3d7b9f412c5dda1d94d581ecd6b4ad4887f4645);
+        background-size:cover ;
+      }
+
+      .card2{
+        background-image: url(https://img.freepik.com/free-photo/front-view-sweet-chocolate-cake_23-2148834059.jpg?w=1380&t=st=1673325275~exp=1673325875~hmac=6fc2c0e86ffbc45a936a4b14ca95fc1319ced687257b49dd8504a8367009abc2);
+        background-size: cover; 
+      }
+      
+      .card3{
+        background-image: url(https://img.freepik.com/premium-photo/brownie-dessert-with-mint-chocolate-sauce_215990-131.jpg?w=1060);
+        background-size: cover;
+      }
+
+      .card4{
+        background-image: url(https://img.freepik.com/premium-photo/chocolate-cake-with-caramel-plate_229797-64.jpg?w=1060);
+        background-size: cover;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .footer {
+        background-color: black;
+        width: 100vw;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+      }
